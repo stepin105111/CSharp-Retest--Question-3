@@ -56,7 +56,7 @@ namespace Practice
             Student s = new Student();
             Console.WriteLine("Enter the name");
             s.Name = Console.ReadLine();
-            Console.WriteLine("Enter the Adress");
+            Console.WriteLine("Enter the Address");
             s.Address = Console.ReadLine();
             Console.WriteLine("Enter the Phone Number");
             s.Phone = long.Parse(Console.ReadLine());
@@ -68,11 +68,4 @@ namespace Practice
         }
     }
 }
-/*
-Limits of serialization:
-data can easily get corruptted. 
-File reading and writing is not good for multi user environment. 
-While writing U will not be able to read the data. 
-If more users are using the program, scalability becomes a problem.
-These limits are handled if U store the data in an external software called database...
-*/
+
